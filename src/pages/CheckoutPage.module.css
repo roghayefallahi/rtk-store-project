@@ -1,0 +1,28 @@
+.empty {
+    text-align: center;
+}
+
+.empty p {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.empty svg {
+    font-size: 5rem;
+    color: #fe5d42;
+    font-weight: 600;
+    margin: 20px 0;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+    min-height: 1000px;
+}
+.products {
+    width: 100%;
+}
