@@ -9,7 +9,7 @@ function Layout({ children }) {
   return (
     <>
       <header className={styles.header}>
-        <Link to="/products">Rofa Shop</Link>
+        <Link to="/products">ROFA </Link>
         <Link to="/checkout">
           <div>
             <PiShoppingCartBold />
