@@ -32,7 +32,7 @@ function ProductsPage() {
   useEffect(() => {
     setDisplayed(products);
     setQuery(getInitialQuery(searchParams));
-  }, [products]);
+  }, [products]);  
   useEffect(() => {
     setSearchParams(query);
     setSearch(query.search || "");
