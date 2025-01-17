@@ -63,3 +63,52 @@
 .information a svg{
     margin-right: 10px;
 }
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; 
+        flex-wrap: wrap;
+        align-items: center;
+     
+    }
+
+    .container img {
+        margin-right: 0; 
+        margin-bottom: 30px;
+    }
+
+    .information {
+        margin:0 auto;
+    }
+    .information div {
+        flex-direction: column; /* چیدمان عمودی در اطلاعات */
+        align-items: center;
+    }
+
+    .description {
+        text-align: center; /* متن در مرکز */
+        width: unset;
+    }
+}
+
+@media (max-width: 480px) {
+    .container img {
+        max-width: 80%; 
+    }
+
+    .information {
+        padding: 15px; /* کاهش فاصله داخلی */
+    }
+
+    .information h3 {
+        font-size: 1.2rem; /* کاهش اندازه عنوان */
+    }
+
+    .description {
+        font-size: 0.9rem; /* کاهش اندازه متن توضیحات */
+    }
+
+    .information a {
+        font-size: 0.9rem; /* کاهش اندازه لینک */
+        padding: 5px; /* کاهش فضای داخلی لینک */
+    }
+}
